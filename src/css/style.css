@@ -1,0 +1,262 @@
+/****************** FONTS *********************/
+
+@font-face {
+    font-family: "Velvelyne";
+    font-weight: bold;
+    src: url('../../public/fonts/Velvelyne-Bold.otf') format('opentype');
+
+    font-family: "Velvelyne";
+    font-weight: book;
+    src: url('../../public/fonts/Velvelyne-Book.otf') format('opentype');
+
+    font-family: "Velvelyne";
+    font-weight: light;
+    src: url('../../public/fonts/Velvelyne-Light.otf') format('opentype');
+
+    font-family: "Velvelyne";
+    font-weight: regular;
+    src: url('../../public/fonts/Velvelyne-Regular.otf') format('opentype');
+}
+
+/**************** CSS VARIABLES *****************/
+
+:root {
+    --bg: rgb(242,240,239);
+    --text: black;
+    --accent: rgb(237, 33, 0);
+    --radius-x: 38vw;
+    --radius-y: 15vh;
+    --card-w: min(280px, 50vh);
+    --card-h: min(420px, 80vw);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Velvelyne", sans-serif;
+    font-weight: regular;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/********************** SCENE CAROUSEL **********************/
+
+.scene {
+    position: relative;
+    height: 500vh;
+}
+
+.scene-sticky {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/*********************** ELLIPSE TRACK *************************/
+
+.track {
+    position: relative;
+    width: calc(var(--radius-x) * 2);
+    height: calc(var(--radius-y) * 2);
+    cursor: grab;
+    transform-style: preserve-3d;
+}
+
+/*********************** TRACK ITEMS ***************************/
+
+.track-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: "Martian Mono", monospace;
+    font-weight: 300;
+    font-size: min(0.6rem);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.track-item.active {
+    color: var(--accent);
+    font-size: 1.5rem;
+}
+
+/************************ DISPLAY CARD ******************************/
+
+.active-display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 5;
+}
+
+.display-card {
+    width: var(--card-w);
+    height: var(--card-h);
+    position: relative;
+    overflow: hidden;
+}
+
+.display-card img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.display-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, 
+        rgba(0, 0, 0, 0.7) 0%, 
+        rgba(0, 0, 0, 0) 50%, 
+        transparent 100%);
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    pointer-events: auto;
+}
+
+/********************* WORK SECTION *************************/
+
+.work a {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.work {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3rem 3rem 2rem 0;
+}
+
+
+/******************* ABOUT SECTION **************************/
+
+.about-section {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+}
+
+/***************** CARD ANIMATION ON ENTER | EXIT ********************/
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    80% {
+        transform: scale(1.03);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.display-card {
+    animation: popIn 0.4s cubic-bezier(0.22, 1, 0.30, 1) both;
+}
+
+/************************* RESPONSIVE DESIGN ************************/
+
+/*----------------------- PHONES, SMALL DEVICES --------------------*/
+
+@media (max-width: 600px) {
+    :root {
+        --radius-x: 40vw;
+        --radius-y: 45vw;
+    }
+}
+/*------------------ PORTRAIT TABLETS AND LARGE PHONES ------------*/
+
+@media only screen and (min-width: 600px) {
+        :root {
+            --radius-x: 40vw;
+            --radius-y: 30vh;
+        }
+}
+/*--------------------- MEDIUM DEVICES ----------------------------*/
+
+@media only screen and (min-width: 768px) {
+    :root {
+        --radius-x: 38vw;
+        --radius-y: 25vh;
+    }
+}
+
+/*------------------ LARGE DEVICES, DESKTOPS ---------------------*/
+
+@media only screen and (min-width: 992px) {
+
+        :root {
+            --radius-x: 38vw;
+            --radius-y: 18vh;
+        }
+}
+
+/*------------------ XL DEVICES AND UP ---------------------------*/
+
+@media only screen and (min-width: 1200px) {
+    :root {
+        --radius-x: 38vw;
+        --radius-y: 15vh;
+    }
+}
