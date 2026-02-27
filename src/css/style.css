@@ -23,7 +23,7 @@
 :root {
     --bg: rgb(242,240,239);
     --text: black;
-    --accent: rgb(237, 33, 0);
+    --accent: #D41D00;
     --radius-x: 38vw;
     --radius-y: 15vh;
     --card-w: min(280px, 50vh);
@@ -42,6 +42,11 @@ a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+}
+
+a:hover {
+    color:#D41D00;
+    font-style: italic;
 }
 
 html {
@@ -96,14 +101,13 @@ body {
     left: 50%;
     font-family: "Martian Mono", monospace;
     font-weight: 300;
-    font-size: min(0.6rem);
+    font-size: min(0.7rem);
     text-transform: uppercase;
     white-space: nowrap;
 }
 
-.track-item.active {
-    color: var(--accent);
-    font-size: 1.5rem;
+.is-active {
+    color: #D41D00;
 }
 
 /************************ DISPLAY CARD ******************************/
@@ -161,36 +165,18 @@ body {
     pointer-events: auto;
 }
 
-/********************* WORK SECTION *************************/
+/******************* ABOUT AND WORK SECTIONS **************************/
 
-.work a {
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-}
-.work {
+.about-section, .work {
     z-index: 100;
     position: sticky;
-    top: 0;
-    right: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 3rem 3rem 2rem 0;
-}
-
-
-/******************* ABOUT SECTION **************************/
-
-.about-section {
-    position: sticky;
     bottom: 0;
+    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 3rem;
+    padding: 3rem;
 }
 
 /***************** CARD ANIMATION ON ENTER | EXIT ********************/
@@ -217,12 +203,33 @@ body {
 
 /************************* RESPONSIVE DESIGN ************************/
 
+/*------------------------ DARK THEME ------------------------------*/
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: rgb(31 31 31);
+        --text: rgb(242, 240, 239);
+    }
+    .track-item {
+        color: white;
+    }
+    a:hover, .is-active {
+        color: #d2e300;
+    }
+}
+
 /*----------------------- PHONES, SMALL DEVICES --------------------*/
 
 @media (max-width: 600px) {
     :root {
-        --radius-x: 40vw;
-        --radius-y: 45vw;
+        --radius-x: 42vw;
+        --radius-y: 48vw;
+    }
+    .about-section, .work {
+        padding: 2rem 1.5rem;
+    }
+    .track-item {
+        font-size: 0.5rem;
     }
 }
 /*------------------ PORTRAIT TABLETS AND LARGE PHONES ------------*/
@@ -230,7 +237,7 @@ body {
 @media only screen and (min-width: 600px) {
         :root {
             --radius-x: 40vw;
-            --radius-y: 30vh;
+            --radius-y: 37vh;
         }
 }
 /*--------------------- MEDIUM DEVICES ----------------------------*/
@@ -238,7 +245,7 @@ body {
 @media only screen and (min-width: 768px) {
     :root {
         --radius-x: 38vw;
-        --radius-y: 25vh;
+        --radius-y: 30vh;
     }
 }
 
@@ -248,7 +255,7 @@ body {
 
         :root {
             --radius-x: 38vw;
-            --radius-y: 18vh;
+            --radius-y: 21vh;
         }
 }
 
@@ -257,6 +264,6 @@ body {
 @media only screen and (min-width: 1200px) {
     :root {
         --radius-x: 38vw;
-        --radius-y: 15vh;
+        --radius-y: 18vh;
     }
 }

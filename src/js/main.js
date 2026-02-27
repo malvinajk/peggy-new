@@ -139,7 +139,7 @@ function render() {
         // opacity then maps that to a reasonable range (0.25 to 0.8)
         // note: changed it back to have greater opacity at the front instead at the back
         const depth = (Math.sin(rad) + 1) / 2;
-        const opacity = 0.25 + depth * 0.55;
+        const opacity = 0.35 + depth * 0.6;
 
         // moves the item to its calculated (x, y) position relative to the center.
         // -50% centers the item at its own midpoint

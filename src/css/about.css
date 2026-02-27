@@ -1,0 +1,187 @@
+
+.main-body {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.main-body div:first-child {
+    flex: 0 0 20%;
+}
+.main-body div:last-child {
+    flex: 1 1 0;
+}
+
+.cv-section {
+    padding: 3rem;
+}
+
+.cv-col {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    padding-top: 3rem;
+}
+
+p {
+    font-family: "Martian Mono", monospace;
+    line-height: 1.9rem;
+    padding-bottom: 3rem;
+    text-align: justify;
+}
+
+img {
+    max-height: 60vh;
+    border-radius: 20px;
+    grid-row: 1 / 3;
+}
+
+figure {
+    display: table;
+}
+
+figcaption {
+    font-family: "Martian Mono", monospace;
+    font-size: 0.7rem;
+    display: table-caption;
+    caption-side: bottom;
+    line-height: 1rem;
+}
+
+video {
+    border-radius: 20px;
+}
+
+/******************** Circular ABOUT link *******************/
+
+.circle-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-el {
+    width: 130px;
+    height: 130px;
+    display: block;
+}
+
+.circle-text {
+    font-family: "Martian Mono", monospace;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    fill: #D41D00;
+}
+
+.circle-link:hover .circle-text {
+    font-style: normal;
+}
+
+.circle-spin {
+    transform-origin: 50% 50%;
+    animation: spinText 18s linear infinite;
+}
+
+@keyframes spinText {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.about-section {
+    align-items: end;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(transparent, rgb(242, 240, 239));
+    padding: 3rem 3rem;
+}
+
+.work {
+    align-items: start;
+    backdrop-filter: blur(5px);
+    background: linear-gradient(rgb(242, 240, 239), transparent);  
+}
+
+
+/************************* RESPONSIVE DESIGN ************************/
+
+/*------------------------ DARK THEME ------------------------------*/
+
+@media (prefers-color-scheme: dark) {
+    .about-section {
+        background: linear-gradient(transparent, rgb(31 31 31));
+    }
+
+    .work {
+        background: linear-gradient(rgb(31 31 31), transparent);
+    }
+    .circle-text {
+        fill: #d2e300;
+    }
+}
+
+/*----------------------- PHONES, SMALL DEVICES --------------------*/
+
+@media (max-width: 600px) {
+    .main-body, .cv-col {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 1.5rem 1.5rem;
+    }
+    img {
+        max-width: 100vw;
+        max-height: 100vh;
+
+    }
+
+    .main-body>div {
+        flex: 1 1 100%;
+        padding: 1.5rem;
+    }
+
+    .about-circle {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+/*------------------ PORTRAIT TABLETS AND LARGE PHONES ------------*/
+
+@media only screen and (max-width: 600px) {
+    .main-body, .cv-col {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 3rem;
+    }
+}
+
+/*--------------------- MEDIUM DEVICES ----------------------------*/
+
+/* @media only screen and (max-width: 768px) {
+    .main-body,
+    .cv-col {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 3rem;
+    }
+} */
+
+/*------------------ LARGE DEVICES, DESKTOPS ---------------------*/
+
+@media only screen and (max-width: 992px) {
+        .main-body,
+            .cv-col {
+                flex-direction: column;
+                align-items: center;
+                gap: 2rem;
+            }
+}

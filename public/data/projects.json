@@ -1,0 +1,226 @@
+[
+    {
+        "id": "roadkill-urns",
+        "title": "Roadkill Urns",
+        "year": "1996 - present",
+        "materials": [
+            "porcelain",
+            "ash", 
+            "bones"
+        ],
+        "dimensions": "life size",
+        "images": []
+    },
+    {
+        "id": "bossom",
+        "title": "Bossom",
+        "year": "2024",
+        "materials": [],
+        "dimensions": "",
+        "images": []
+    },
+    {
+        "id": "leggy-peggy",
+        "title": "Leggy Peggy",
+        "year": "2026",
+        "materials": [
+            "fibreglass",
+            "aluminium",
+            "flock"
+        ],
+        "dimensions": "",
+        "images": []
+    },
+    {
+        "id": "neon-grrrr",
+        "title": "Neon GRRRR",
+        "year": "2026",
+        "materials": [
+            "jesmonite",
+            "flock"
+        ],
+        "dimensions": "",
+        "images": []
+    },
+    {
+        "id": "rucksack",
+        "title": "Rucksack",
+        "year": "2016",
+        "materials": [
+            "flock",
+            "jesmonite",
+            "nike rucksack",
+            "roadkill rabbits",
+            "moor hen"
+        ],
+        "dimensions": "34 x 44 x 20 cm",
+        "images": []
+    },
+    {
+        "id": "foxy-loxy",
+        "title": "Foxy Loxy",
+        "year": "2020",
+        "materials": [
+            "jesmonite",
+            "roadkill fox",
+            "nike sports bag"
+        ],
+        "dimensions": "56 x 30 x 26 cm",
+        "images": []
+    },
+    {
+        "id": "urns",
+        "title": "Urns",
+        "year": "1999 - present",
+        "materials": [
+            "cremated insects",
+            "cremated creatures",
+            "flocked boxes"
+        ],
+        "dimensions": "varies",
+        "images": []
+    },
+    {
+        "id": "straw-bale",
+        "title": "Straw Bale",
+        "year": "2026",
+        "materials": [
+            "plaster",
+            "straw"
+        ],
+        "dimensions": "",
+        "images": []
+    },
+    {
+        "id": "hay-bale",
+        "title": "Hay Bale",
+        "year": "2026",
+        "materials": [
+            "hay",
+            "cider cans",
+            "plaster"
+        ],
+        "dimensions": "",
+        "images": []
+    },
+    {
+        "id": "hare-in-headlights",
+        "title": "Hare in Headlights",
+        "year": "1999",
+        "materials": [
+            "bronze"
+        ],
+        "dimensions": "70 x 45 x 20 cm",
+        "images": []
+    },
+    {
+        "id": "ick",
+        "title": "Ick",
+        "year": "2021",
+        "materials": [
+            "wig",
+            "found insects",
+            "flocked branch"
+        ],
+        "dimensions": "40 x 26 x 24 cm",
+        "images": []
+    },
+    {
+        "id": "black-dog",
+        "title": "Black Dog",
+        "year": "2000",
+        "materials": [
+            "resin",
+            "flock cast",
+            "roadkill dog"
+        ],
+        "dimensions": "80 x 21 x 60 cm",
+        "images": []
+    },
+    {
+        "id": "oh-dear",
+        "title": "Oh Dear",
+        "year": "2025",
+        "materials": [
+            "jesmonite",
+            "puffer jacket",
+            "headphones"
+        ],
+        "dimensions": "70 x 60 x 30 cm",
+        "images": []
+    },
+    {
+        "id": "cheesy-bone",
+        "title": "Cheesy Bone",
+        "year": "2016",
+        "materials": [
+            "cow bones",
+            "flock",
+            "babybell cheese"
+        ],
+        "dimensions": "124 x 13 x 14 cm",
+        "images": []
+    },
+    {
+        "id": "clooty-dumpling",
+        "title": "Clootie Dumpling",
+        "year": "2020",
+        "materials": [
+            "branches",
+            "jesmonite",
+            "flock cast gull",
+            "trainer"
+        ],
+        "dimensions": "150 x 70 x 140 cm",
+        "images": []
+    },
+    {
+        "id": "europe-after-the-rain",
+        "title": "Europe After the Rain (Exhibition)",
+        "year": "2019",
+        "materials": [
+            "cremated animals",
+            "insects",
+            "birds",
+            "porcelain bones",
+            "ash"
+        ],
+        "dimensions": "varies",
+        "images": []
+    },
+    {
+        "id": "flower-bed",
+        "title": "Flower Bed",
+        "year": "",
+        "materials": [
+            "roadkill animals",
+            "flowers"
+        ],
+        "dimensions": "",
+        "images": []
+    },
+    {
+        "id": "limbo",
+        "title": "Limbo",
+        "year": "1999",
+        "materials": [
+            "cast of roadkill",
+            "tyre rubber"
+        ],
+        "dimensions": "200 x 200 x 60 cm",
+        "images": []
+    },
+    {
+        "id": "sleeping-beauties",
+        "title": "Sleeping Beauties",
+        "year": "",
+        "materials": [
+            "resin",
+            "flock cast",
+            "flowers",
+            "roadkill creatures"
+        ],
+        "dimensions": "200 x 120 x 50 cm",
+        "images": []
+    }
+]

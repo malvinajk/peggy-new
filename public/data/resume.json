@@ -1,0 +1,299 @@
+[
+    {
+        "exhibitions": [
+            {
+                "id": "buffet-dart-art-school",
+                "title": "Buffet d'art",
+                "subtitle": "Art School",
+                "year": "2024",
+                "location": ["Ambika P3", "London"],
+                "link": ""
+            },
+            {
+                "id": "wells-contemporary",
+                "title": "Wells Contemporary",
+                "subtitle": "",
+                "year": "2022",
+                "location": ["Wells Cathedral", "Wells"],
+                "link": ""
+            },
+            {
+                "id": "red-creek",
+                "title": "Red Creek",
+                "subtitle": "",
+                "year": "2021",
+                "location": [
+                    "Porthmeor Studios",
+                    "St Ives"
+                ],
+                "link": "http://www.solasart.co.uk/writing-redcreek.html"
+            },
+            {
+                "id": "europe-after-the-rain",
+                "title": "Europe After The Rain",
+                "subtitle": "",
+                "year": "2019",
+                "location": [
+                    "Newlyn Art Gallery & The Exchange",
+                    "Penzance"
+                ],
+                "link": "https://newlynartgallery.co.uk/activities/europe-after-the-rain/"
+                },
+            {
+                "id": "clot",
+                "title": "Clot",
+                "subtitle": "",
+                "year": "2019",
+                "location": [
+                    "London Gallery West",
+                    "London"
+                ],
+                "link": ""
+            },
+            {
+                "id": "buffet-dart-hestercombe",
+                "title": "Buffet d'art",
+                "subtitle": "",
+                "year": "2017",
+                "location": [
+                    "Hestercombe House",
+                    "Taunton"
+                ],
+                "link": "https://www.hestercombe.com/whats-on/buffet-dart"
+            },
+            {
+                "id": "work-work",
+                "title": "Work Work",
+                "subtitle": "",
+                "year": "2017",
+                "location": [
+                    "Tintype Gallery",
+                    "London"
+                ],
+                "link": "https://tintypegallery.com/exhibitions/work-work/"
+            },
+            {
+                "id": "buffet-dart-p3",
+                "title": "Buffet d'art",
+                "subtitle": "",
+                "year": "2016",
+                "location": [
+                    "Ambika P3",
+                    "London"
+                ],
+                "link": "https://www.artrabbit.com/events/buffet-dart-2016"
+            },
+            {
+                "id": "un-common-ground",
+                "title": "Un Common Ground",
+                "subtitle": "",
+                "year": "2012",
+                "location": [
+                    "Mienbleu Gallery",
+                    "Berlin"
+                ],
+                "link": "https://vimeo.com/38659211"
+            },
+            {
+                "id": "paintings-and-sculpture-56",
+                "title": "Paintings and Sculpture",
+                "subtitle": "",
+                "year": "2015",
+                "location": [
+                    "56 Gallery",
+                    "London"
+                ],
+                "link": ""
+            },
+            {
+                "id": "dogs-and-cats",
+                "title": "Dogs and Cats",
+                "subtitle": "",
+                "year": "2011",
+                "location": [
+                    "Unit24 Gallery",
+                    "London"
+                ],
+                "link": "https://www.unit24.info/cats-dogs/"
+            },
+            {
+                "id": "i-do",
+                "title": "I Do",
+                "subtitle": "",
+                "year": "2012",
+                "location": [
+                    "PG Gallery",
+                    "Istanbul"
+                ],
+                "link": ""
+            },
+            {
+                "id": "art-tube-01",
+                "title": "Art-Tube 01",
+                "subtitle": "",
+                "year": "2011",
+                "location": [
+                    "Subway Gallery",
+                    "London"
+                ],
+                "link": "http://www.subwaygallery.com/ART-TUBE%2001.html"
+            },
+            {
+                "id": "wake",
+                "title": "Wake",
+                "subtitle": "",
+                "year": "2012",
+                "location": [
+                    "London Gallery West",
+                    "London"
+                ],
+                "link": ""
+            },
+            {
+                "id": "house",
+                "title": "House",
+                "subtitle": "",
+                "year": "2020",
+                "location": [
+                    "Camden",
+                    "London"
+                ],
+                "link": ""
+            },
+            {
+                "id": "still-life-with",
+                "title": "Still Life With",
+                "subtitle": "",
+                "year": "2005",
+                "location": [
+                    "Kate Macgarry Gallery",
+                    "London"
+                ],
+                "link": "https://www.katemacgarry.com/exhibitions/65-still-life-with-peggy-atherton-luke-gottelier-georgie-hopton-des-hughes/installation_shots/"
+            },
+            {
+                "id": "peggy-atherton",
+                "title": "Peggy Atherton",
+                "subtitle": "",
+                "year": "2009",
+                "location": [
+                    "Unit24 Gallery",
+                    "London"
+                ],
+                "link": "https://www.unit24.info/peggy-atherton/"
+            }    
+        ],
+        "work": [
+            {
+                "id": "lecturer-westminster-ba",
+                "position": "Senior Lecturer",
+                "programme": "Fine Art Mixed Media",
+                "degree": "BA Hons", 
+                "year": "",
+                "location": [
+                    "University of Westminster",
+                    "London"
+                ]
+            },
+            {
+                "id": "lecturer-christies-ma",
+                "position": "Lecturer",
+                "programme": "Contemporary Fine Art",
+                "degree": "MA",
+                "year": "",
+                "location": [
+                    "Christies",
+                    "London"
+                ]
+            },
+            {
+                "id": "lecturer-westminster-ma",
+                "position": "Lecturer",
+                "programme": "Media Practice",
+                "degree": "MA",
+                "year": "",
+                "location": [
+                    "University of Westminster",
+                    "London"
+                ]
+            },
+            {
+                "id": "visiting-lecturer-bath",
+                "position": "Visiting Lecturer",
+                "programme": "Fine Art",
+                "degree": "BA Hons",
+                "year": "",
+                "location": [
+                    "Bath University",
+                    "Bath"
+                ]
+            },
+            {
+                "id": "visiting-lecturer-ra",
+                "position": "Visiting Lecturer",
+                "programme": "Sculpture",
+                "degree": "MA",
+                "year": "",
+                "location": [
+                    "Royal College of Art",
+                    "London"
+                ]
+            },
+            {
+                "id": "workshop-tutor",
+                "position": "Art Tutor",
+                "programme": "Artist Workshop",
+                "degree": "",
+                "year": "",
+                "location": [
+                    "Whitechapel Gallery",
+                    "London"
+                ]
+            },
+            {
+                "id": "curator-tablet-gallery",
+                "position": "Curator / Gallery Coordinator",
+                "programme": "",
+                "degree": "",
+                "year": "",
+                "location": [
+                    "Tablet Gallery",
+                    "London"
+                ]
+            },
+            {
+                "id": "curator-buffet-dart",
+                "position": "Founder / Curator",
+                "programme": "Buffet d'art",
+                "degree": "",
+                "year": "",
+                "location": [
+                    "Berlin",
+                    "London",
+                    "international"
+                ]
+            },
+            {
+                "id": "arts-officer-spelthorne",
+                "position": "Arts and Heritage Officer",
+                "programme": "",
+                "degree": "",
+                "year": "2002",
+                "location": [
+                    "Spelthorne County Council"
+                ]
+            },
+            {
+                "id": "arts-officer-epping",
+                "position": "Arts Officer",
+                "programme": "",
+                "degree": "",
+                "year": "2000",
+                "location": [
+                    "Epping Forest Council"
+                ]
+            }
+
+        ]
+}
+]
