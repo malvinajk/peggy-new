@@ -1,10 +1,8 @@
-[
-    {
+{
         "exhibitions": [
             {
                 "id": "buffet-dart-art-school",
-                "title": "Buffet d'art",
-                "subtitle": "Art School",
+                "title": "Buffet d'art: Art School",
                 "year": "2024",
                 "location": ["Ambika P3", "London"],
                 "link": ""
@@ -12,7 +10,6 @@
             {
                 "id": "wells-contemporary",
                 "title": "Wells Contemporary",
-                "subtitle": "",
                 "year": "2022",
                 "location": ["Wells Cathedral", "Wells"],
                 "link": ""
@@ -20,7 +17,6 @@
             {
                 "id": "red-creek",
                 "title": "Red Creek",
-                "subtitle": "",
                 "year": "2021",
                 "location": [
                     "Porthmeor Studios",
@@ -31,7 +27,6 @@
             {
                 "id": "europe-after-the-rain",
                 "title": "Europe After The Rain",
-                "subtitle": "",
                 "year": "2019",
                 "location": [
                     "Newlyn Art Gallery & The Exchange",
@@ -42,7 +37,6 @@
             {
                 "id": "clot",
                 "title": "Clot",
-                "subtitle": "",
                 "year": "2019",
                 "location": [
                     "London Gallery West",
@@ -53,7 +47,6 @@
             {
                 "id": "buffet-dart-hestercombe",
                 "title": "Buffet d'art",
-                "subtitle": "",
                 "year": "2017",
                 "location": [
                     "Hestercombe House",
@@ -64,7 +57,6 @@
             {
                 "id": "work-work",
                 "title": "Work Work",
-                "subtitle": "",
                 "year": "2017",
                 "location": [
                     "Tintype Gallery",
@@ -75,7 +67,6 @@
             {
                 "id": "buffet-dart-p3",
                 "title": "Buffet d'art",
-                "subtitle": "",
                 "year": "2016",
                 "location": [
                     "Ambika P3",
@@ -86,7 +77,6 @@
             {
                 "id": "un-common-ground",
                 "title": "Un Common Ground",
-                "subtitle": "",
                 "year": "2012",
                 "location": [
                     "Mienbleu Gallery",
@@ -97,7 +87,6 @@
             {
                 "id": "paintings-and-sculpture-56",
                 "title": "Paintings and Sculpture",
-                "subtitle": "",
                 "year": "2015",
                 "location": [
                     "56 Gallery",
@@ -108,7 +97,6 @@
             {
                 "id": "dogs-and-cats",
                 "title": "Dogs and Cats",
-                "subtitle": "",
                 "year": "2011",
                 "location": [
                     "Unit24 Gallery",
@@ -119,7 +107,6 @@
             {
                 "id": "i-do",
                 "title": "I Do",
-                "subtitle": "",
                 "year": "2012",
                 "location": [
                     "PG Gallery",
@@ -130,7 +117,6 @@
             {
                 "id": "art-tube-01",
                 "title": "Art-Tube 01",
-                "subtitle": "",
                 "year": "2011",
                 "location": [
                     "Subway Gallery",
@@ -141,7 +127,6 @@
             {
                 "id": "wake",
                 "title": "Wake",
-                "subtitle": "",
                 "year": "2012",
                 "location": [
                     "London Gallery West",
@@ -152,7 +137,6 @@
             {
                 "id": "house",
                 "title": "House",
-                "subtitle": "",
                 "year": "2020",
                 "location": [
                     "Camden",
@@ -163,7 +147,6 @@
             {
                 "id": "still-life-with",
                 "title": "Still Life With",
-                "subtitle": "",
                 "year": "2005",
                 "location": [
                     "Kate Macgarry Gallery",
@@ -174,7 +157,6 @@
             {
                 "id": "peggy-atherton",
                 "title": "Peggy Atherton",
-                "subtitle": "",
                 "year": "2009",
                 "location": [
                     "Unit24 Gallery",
@@ -280,7 +262,8 @@
                 "degree": "",
                 "year": "2002",
                 "location": [
-                    "Spelthorne County Council"
+                    "Spelthorne County Council",
+                    "Spelthorne"
                 ]
             },
             {
@@ -290,10 +273,10 @@
                 "degree": "",
                 "year": "2000",
                 "location": [
-                    "Epping Forest Council"
+                    "Epping Forest Council",
+                    "Epping"
                 ]
             }
 
         ]
 }
-]

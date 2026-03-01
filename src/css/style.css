@@ -38,6 +38,10 @@
     padding: 0;
 }
 
+span, p {
+    font-family: "Martian Mono", monospace;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -176,7 +180,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem;
+    padding: 2rem 3rem;
 }
 
 /***************** CARD ANIMATION ON ENTER | EXIT ********************/
@@ -203,18 +207,40 @@ body {
 
 /************************* RESPONSIVE DESIGN ************************/
 
-/*------------------------ DARK THEME ------------------------------*/
+/*------------------ XL DEVICES AND UP ---------------------------*/
 
-@media (prefers-color-scheme: dark) {
+@media only screen and (max-width: 1200px) {
     :root {
-        --bg: rgb(31 31 31);
-        --text: rgb(242, 240, 239);
+        --radius-x: 38vw;
+        --radius-y: 18vh;
     }
-    .track-item {
-        color: white;
+}
+
+/*------------------ LARGE DEVICES, DESKTOPS ---------------------*/
+
+@media only screen and (max-width: 992px) {
+
+    :root {
+        --radius-x: 38vw;
+        --radius-y: 21vh;
     }
-    a:hover, .is-active {
-        color: #d2e300;
+}
+
+/*--------------------- MEDIUM DEVICES ----------------------------*/
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --radius-x: 38vw;
+        --radius-y: 30vh;
+    }
+}
+
+/*------------------ PORTRAIT TABLETS AND LARGE PHONES ------------*/
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --radius-x: 40vw;
+        --radius-y: 37vh;
     }
 }
 
@@ -232,38 +258,22 @@ body {
         font-size: 0.5rem;
     }
 }
-/*------------------ PORTRAIT TABLETS AND LARGE PHONES ------------*/
 
-@media only screen and (min-width: 600px) {
-        :root {
-            --radius-x: 40vw;
-            --radius-y: 37vh;
-        }
-}
-/*--------------------- MEDIUM DEVICES ----------------------------*/
 
-@media only screen and (min-width: 768px) {
+/*------------------------ DARK THEME ------------------------------*/
+
+@media (prefers-color-scheme: dark) {
     :root {
-        --radius-x: 38vw;
-        --radius-y: 30vh;
+        --bg: rgb(31 31 31);
+        --text: rgb(242, 240, 239);
     }
-}
 
-/*------------------ LARGE DEVICES, DESKTOPS ---------------------*/
+    .track-item {
+        color: white;
+    }
 
-@media only screen and (min-width: 992px) {
-
-        :root {
-            --radius-x: 38vw;
-            --radius-y: 21vh;
-        }
-}
-
-/*------------------ XL DEVICES AND UP ---------------------------*/
-
-@media only screen and (min-width: 1200px) {
-    :root {
-        --radius-x: 38vw;
-        --radius-y: 18vh;
+    a:hover,
+    .is-active {
+        color: #d2e300;
     }
 }

@@ -1,4 +1,5 @@
-[
+{ "projects": [
+
     {
         "id": "roadkill-urns",
         "title": "Roadkill Urns",
@@ -223,4 +224,5 @@
         "dimensions": "200 x 120 x 50 cm",
         "images": []
     }
-]
+    ]
+}
