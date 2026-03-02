@@ -169,9 +169,8 @@
             {
                 "id": "lecturer-westminster-ba",
                 "position": "Senior Lecturer",
-                "programme": "Fine Art Mixed Media",
-                "degree": "BA Hons", 
-                "year": "",
+                "programme": "BA Fine Art Mixed Media",
+                "year": ["2000", "present"],
                 "location": [
                     "University of Westminster",
                     "London"
@@ -180,9 +179,8 @@
             {
                 "id": "lecturer-christies-ma",
                 "position": "Lecturer",
-                "programme": "Contemporary Fine Art",
-                "degree": "MA",
-                "year": "",
+                "programme": "MA Contemporary Fine Art",
+                "year": ["2011", "2014"],
                 "location": [
                     "Christies",
                     "London"
@@ -191,9 +189,8 @@
             {
                 "id": "lecturer-westminster-ma",
                 "position": "Lecturer",
-                "programme": "Media Practice",
-                "degree": "MA",
-                "year": "",
+                "programme": "MA Media Practice",
+                "year": ["2004"],
                 "location": [
                     "University of Westminster",
                     "London"
@@ -202,9 +199,8 @@
             {
                 "id": "visiting-lecturer-bath",
                 "position": "Visiting Lecturer",
-                "programme": "Fine Art",
-                "degree": "BA Hons",
-                "year": "",
+                "programme": "BA Fine Art",
+                "year": ["2017", "2021"],
                 "location": [
                     "Bath University",
                     "Bath"
@@ -213,9 +209,8 @@
             {
                 "id": "visiting-lecturer-ra",
                 "position": "Visiting Lecturer",
-                "programme": "Sculpture",
-                "degree": "MA",
-                "year": "",
+                "programme": "MA Sculpture",
+                "year": ["2001"],
                 "location": [
                     "Royal College of Art",
                     "London"
@@ -225,8 +220,7 @@
                 "id": "workshop-tutor",
                 "position": "Art Tutor",
                 "programme": "Artist Workshop",
-                "degree": "",
-                "year": "",
+                "year": ["2014"],
                 "location": [
                     "Whitechapel Gallery",
                     "London"
@@ -236,8 +230,7 @@
                 "id": "curator-tablet-gallery",
                 "position": "Curator / Gallery Coordinator",
                 "programme": "",
-                "degree": "",
-                "year": "",
+                "year": ["1999", "2002"],
                 "location": [
                     "Tablet Gallery",
                     "London"
@@ -247,8 +240,7 @@
                 "id": "curator-buffet-dart",
                 "position": "Founder / Curator",
                 "programme": "Buffet d'art",
-                "degree": "",
-                "year": "",
+                "year": ["2015", "present"],
                 "location": [
                     "Berlin",
                     "London",
@@ -259,8 +251,7 @@
                 "id": "arts-officer-spelthorne",
                 "position": "Arts and Heritage Officer",
                 "programme": "",
-                "degree": "",
-                "year": "2002",
+                "year": ["2002"],
                 "location": [
                     "Spelthorne County Council",
                     "Spelthorne"
@@ -270,8 +261,7 @@
                 "id": "arts-officer-epping",
                 "position": "Arts Officer",
                 "programme": "",
-                "degree": "",
-                "year": "2000",
+                "year": ["2000"],
                 "location": [
                     "Epping Forest Council",
                     "Epping"

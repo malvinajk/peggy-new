@@ -25,7 +25,7 @@
     --text: black;
     --accent: #D41D00;
     --radius-x: 38vw;
-    --radius-y: 15vh;
+    --radius-y: 20vh;
     --card-w: min(280px, 50vh);
     --card-h: min(420px, 80vw);
 }
@@ -212,7 +212,7 @@ body {
 @media only screen and (max-width: 1200px) {
     :root {
         --radius-x: 38vw;
-        --radius-y: 18vh;
+        --radius-y: 25vh;
     }
 }
 
@@ -222,7 +222,7 @@ body {
 
     :root {
         --radius-x: 38vw;
-        --radius-y: 21vh;
+        --radius-y: 30vh;
     }
 }
 
@@ -231,7 +231,7 @@ body {
 @media only screen and (max-width: 768px) {
     :root {
         --radius-x: 38vw;
-        --radius-y: 30vh;
+        --radius-y: 35vh;
     }
 }
 
@@ -240,7 +240,7 @@ body {
 @media only screen and (max-width: 600px) {
     :root {
         --radius-x: 40vw;
-        --radius-y: 37vh;
+        --radius-y: 40vh;
     }
 }
 
