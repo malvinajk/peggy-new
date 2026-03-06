@@ -3,7 +3,6 @@
     max-width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding: 3rem;
     flex-wrap: wrap;
     gap: 6rem;
 }
@@ -16,10 +15,17 @@
 }
 
 p {
+    font-size: 0.8rem;
     text-align: justify;
     line-height: 1.9rem;
-    padding: 0 3rem 3rem 0;
+}
 
+span {
+    font-size: 0.7rem;
+}
+
+main {
+    padding: 3rem;
 }
 
 img {
@@ -34,8 +40,9 @@ figure {
 
 figcaption {
     font-family: "Martian Mono", monospace;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     display: table-caption;
+    text-align: center;
     caption-side: bottom;
     line-height: 1rem;
 }
@@ -89,7 +96,6 @@ video {
 .about-section {
     align-items: end;
     background: linear-gradient(transparent, rgb(242, 240, 239));
-
 }
 
 .work {
@@ -103,7 +109,12 @@ video {
 .video-section {
     display: flex;
     justify-content: flex-end;
+    gap: 3rem;
     padding: 3rem;
+}
+
+.video-section p {
+    padding-bottom: 3rem;
 }
 
 /*************************** CV SECTION ************************************/
@@ -120,12 +131,6 @@ video {
     grid-template-columns: 200px 1fr 1fr 400px;
     gap: 2rem 2rem;
     padding: 0.75rem 0;
-}
-
-
-.cv-section {
-    padding: 3rem;
-
 }
 
 .cv-col {
@@ -160,7 +165,6 @@ video {
         align-items: center;
         gap: 2rem;
     }
-
 }
 
 /*--------------------- MEDIUM DEVICES ----------------------------*/
@@ -168,7 +172,7 @@ video {
 @media only screen and (max-width: 992px) {
     .main-body, .video-section {
         flex-direction: column;
-        max-width: 100vw;
+        max-width: 90vw;
         align-items: center;
     }
     .exhibition-item {
@@ -180,12 +184,9 @@ video {
         font-size: 1rem;
     }
     p {
-        padding-right: 0;
+        font-size: 0.8rem;
     }
 
-    .video-content {
-        padding-top: 3rem;
-    }
 
     span {
         font-size: 0.8rem;
@@ -201,7 +202,6 @@ video {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        padding: 1rem 1rem;
     }
 
     img {
@@ -222,10 +222,6 @@ video {
     .video-section {
         padding: 1.5rem 1.5rem;
         align-items: center;
-        gap: 3rem
-    }
-    p {
-        padding-right: 0;
     }
 }
 
@@ -235,29 +231,39 @@ video {
     .main-body, .cv-col {
         flex-direction: column;
         align-items: center;
-        gap: 2rem;
     }
-    .cv-section {
-        padding: 1rem 1rem;
-    }
-    img {
-        max-width: 100vw;
-        max-height: 100vh;
-    }
-    .exhibition-item {
-        grid-template-columns: 50px 90px 1fr 90px;
-    }
-    .work-item {
-        grid-template-columns: 70px 1fr 1fr 150px;
+    .video {
+        padding: 0;
+        gap: 0;
     }
 
-    .main-body>div {
-        flex: 1 1 100%;
+    img {
+        max-width: 70vw;
+        max-height: 80vh;
+    }
+    
+    .exhibition-item {
+        grid-template-columns: 50px 70px 90px 80px;
+        justify-content: center;
+    }
+    .work-item {
+        grid-template-columns: 40px 70px 70px 170px;
+        justify-content: center;
+    }
+    span {
+        font-size: 0.6rem;
+    }
+
+    .video-section {
+        padding: 1rem 0;
     }
 
     .about-circle {
         width: 110px;
         height: 110px;
+    }
+    .main-heading {
+        text-align: center;
     }
 }
 

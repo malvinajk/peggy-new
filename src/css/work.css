@@ -1,3 +1,147 @@
 .circle-text {
     letter-spacing: 7.5px;
 }
+
+main {
+    padding: 0;
+}
+
+.work {
+    background: linear-gradient(rgb(242, 240, 239), transparent);
+    backdrop-filter: blur(0);
+    height: 100px;
+}
+
+.about-section {
+    height: 100px;
+}
+
+.work-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 24px;
+}
+
+.works-item {
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.works-item h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.work-meta {
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.work-media {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.media-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.media-item img,
+.media-item video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.media-item.full-page {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-item.full-page img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.full-page::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/******************************** FILTER BUTTONS ***********************************/
+
+.filter-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.filter-btn {
+    cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09);
+    font-family: "Martian Mono", monospace;
+    font-size: 0.7rem;
+}
+
+.filter-btn.active {
+    background-color: #D41D00;
+    color: rgb(242, 240, 239);
+}
+
+/********************** RESPONSIVENESS *************************/
+
+@media only screen and (max-width: 768px) {
+    .works-item {
+        max-width: 350px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .work {
+        background: linear-gradient(rgb(31 31 31), transparent);
+        height: 100px;
+    }
+    .works-item, .filter-btn {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    }
+    .filter-btn {
+        background-color: rgb(31 31 31);
+        color: rgb(242, 240, 239);
+    }
+    .filter-btn.active {
+        background-color: #d2e300;
+        color: rgb(31 31 31);
+    } 
+}

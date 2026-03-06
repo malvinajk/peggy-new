@@ -3,63 +3,51 @@
 const PROJECTS = [
     {
         title: "Bossom",
-        image: "../../public/images/landing-imgs/Bossom.jpg",
-        year: ""
+        image: "../../public/images/landing-imgs/Bossom.jpg"
     },
     {
         title: "Disco Tortoise",
-        image: "../../public/images/landing-imgs/Disco-Tortoise.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Disco-Tortoise.jpg"
     },
     {
         title: "Foxy Loxy",
-        image: "../../public/images/landing-imgs/Foxy-Loxy.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Foxy-Loxy.jpg"
     },
     {
         title: "Hare in Headlights",
-        image: "../../public/images/landing-imgs/Hare-in-Headlights.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Hare-in-Headlights.jpg"
     },
     {
         title: "Hay Bale",
-        image: "../../public/images/landing-imgs/HayBale.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/HayBale.jpg"
     },
     {
         title: "Hedgehog",
-        image: "../../public/images/landing-imgs/Hedgehog.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Hedgehog.jpg"
     },
     {
         title: "Ick",
-        image: "../../public/images/landing-imgs/ick.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/ick.jpg"
     },
     {
         title: "Leggy Peggy",
-        image: "../../public/images/landing-imgs/Leggy-Peggy.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Leggy-Peggy.jpg"
     },
     {
         title: "Neon GRRRRR",
-        image: "../../public/images/landing-imgs/Neon-GRRRR.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Neon-GRRRR.jpg"
     },
     {
         title: "Oh Dear",
-        image: "../../public/images/landing-imgs/Oh-Dear.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Oh-Dear.jpg"
     },
     {
-        title: "Ruck Sack",
-        image: "../../public/images/landing-imgs/Ruck-Sack.jpg",
-        year: "2023"
+        title: "Rucky Sacky",
+        image: "../../public/images/landing-imgs/Ruck-Sack.jpg"
     },
     {
         title: "Urns",
-        image: "../../public/images/landing-imgs/Urns.jpg",
-        year: "2023"
+        image: "../../public/images/landing-imgs/Urns.jpg"
     }
 ]
 
