@@ -183,6 +183,22 @@ body {
     padding: 2rem 3rem;
 }
 
+.icon-email, .icon-instagram {
+    width: 2.2em;
+    height: 2.2em;
+    vertical-align: middle;
+    opacity: 50%;
+    padding-left: 0.4em;
+}
+.icon-instagram {
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.icon-email:hover, .icon-instagram:hover {
+    opacity: 100%;
+}
+
 /***************** CARD ANIMATION ON ENTER | EXIT ********************/
 
 @keyframes popIn {

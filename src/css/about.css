@@ -2,15 +2,16 @@
 .main-body {
     max-width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 6rem;
+    gap: 5rem;
 }
 
-.main-body div:first-child {
-    flex: 0 0 20%;
+.col-left {
+    flex: 0 0 auto;
 }
-.main-body div:last-child {
+
+.col-right {
     flex: 1 1 0;
 }
 
@@ -25,13 +26,12 @@ span {
 }
 
 main {
-    padding: 3rem;
+    padding: 6rem;
 }
 
 img {
     max-height: 60vh;
     border-radius: 20px;
-    grid-row: 1 / 3;
 }
 
 figure {
@@ -100,7 +100,6 @@ video {
 
 .work {
     align-items: start;
-    backdrop-filter: blur(5px);
     background: linear-gradient(rgb(242, 240, 239), transparent);  
 }
 
@@ -109,8 +108,7 @@ video {
 .video-section {
     display: flex;
     justify-content: flex-end;
-    gap: 3rem;
-    padding: 3rem;
+    gap: 5rem;
 }
 
 .video-section p {
@@ -220,7 +218,6 @@ video {
     }
 
     .video-section {
-        padding: 1.5rem 1.5rem;
         align-items: center;
     }
 }
@@ -228,13 +225,12 @@ video {
 /*----------------------- PHONES, SMALL DEVICES --------------------*/
 
 @media (max-width: 600px) {
+    main {
+        padding: 1.5rem;
+    }
     .main-body, .cv-col {
         flex-direction: column;
         align-items: center;
-    }
-    .video {
-        padding: 0;
-        gap: 0;
     }
 
     img {
@@ -254,10 +250,6 @@ video {
         font-size: 0.6rem;
     }
 
-    .video-section {
-        padding: 1rem 0;
-    }
-
     .about-circle {
         width: 110px;
         height: 110px;
@@ -266,11 +258,6 @@ video {
         text-align: center;
     }
 }
-
-
-
-
-
 
 /*------------------------ DARK THEME ------------------------------*/
 

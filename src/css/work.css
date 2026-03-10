@@ -5,6 +5,10 @@
 main {
     padding: 0;
 }
+.main-body {
+    display: flex;
+    justify-content: center;
+}
 
 .work {
     background: linear-gradient(rgb(242, 240, 239), transparent);
