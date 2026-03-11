@@ -121,7 +121,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    pointer-events: none;
     z-index: 5;
 }
 
@@ -139,16 +138,13 @@ body {
     object-fit: cover;
     display: block;
     transition: transform 0.5s ease;
+    cursor: zoom-in;
 }
 
 .display-card::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, 
-        rgba(0, 0, 0, 0.7) 0%, 
-        rgba(0, 0, 0, 0) 50%, 
-        transparent 100%);
     pointer-events: none;
     border-radius: 20px;
 }
@@ -167,6 +163,26 @@ body {
     transform: translateX(-50%);
     z-index: 2;
     pointer-events: auto;
+}
+
+.full-page {
+    inset: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.full-page img {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 0;
+    object-fit: contain;
+    cursor: zoom-out;
 }
 
 /******************* ABOUT AND WORK SECTIONS **************************/

@@ -2,52 +2,56 @@
 
 const PROJECTS = [
     {
-        title: "Bossom",
-        image: "../../public/images/landing-imgs/Bossom.jpg"
-    },
-    {
         title: "Disco Tortoise",
-        image: "../../public/images/landing-imgs/Disco-Tortoise.jpg"
+        image: "../../public/images/landing-imgs/Disco-Tortoise.webp"
     },
     {
         title: "Foxy Loxy",
-        image: "../../public/images/landing-imgs/Foxy-Loxy.jpg"
+        image: "../../public/images/landing-imgs/Foxy-Loxy.webp"
     },
     {
-        title: "Hare in Headlights",
-        image: "../../public/images/landing-imgs/Hare-in-Headlights.jpg"
+        title: "Bale",
+        image: "../../public/images/landing-imgs/hay-bale-04.webp"
     },
     {
-        title: "Hay Bale",
-        image: "../../public/images/landing-imgs/HayBale.jpg"
+        title: "Flower Bed",
+        image: "../../public/images/landing-imgs/flower-bed-01.webp"
     },
     {
-        title: "Hedgehog",
-        image: "../../public/images/landing-imgs/Hedgehog.jpg"
+        title: "Sleeping Beauties",
+        image: "../../public/images/landing-imgs/sleeping-beauties-01.webp"
     },
     {
         title: "Ick",
-        image: "../../public/images/landing-imgs/ick.jpg"
+        image: "../../public/images/landing-imgs/ick.webp"
     },
     {
         title: "Leggy Peggy",
-        image: "../../public/images/landing-imgs/Leggy-Peggy.jpg"
+        image: "../../public/images/landing-imgs/leggy-peggy-05.webp"
     },
     {
         title: "Neon GRRRRR",
-        image: "../../public/images/landing-imgs/Neon-GRRRR.jpg"
+        image: "../../public/images/landing-imgs/Neon-GRRRR.webp"
     },
     {
         title: "Oh Dear",
-        image: "../../public/images/landing-imgs/Oh-Dear.jpg"
+        image: "../../public/images/landing-imgs/Oh-Dear.webp"
     },
     {
         title: "Rucky Sacky",
-        image: "../../public/images/landing-imgs/Ruck-Sack.jpg"
+        image: "../../public/images/landing-imgs/Ruck-Sack.webp"
     },
     {
         title: "Urns",
-        image: "../../public/images/landing-imgs/Urns.jpg"
+        image: "../../public/images/landing-imgs/Urns.webp"
+    },
+    {
+        title: "Hare in Headlights",
+        image: "../../public/images/landing-imgs/Hare-in-Headlights.webp"
+    },
+    {
+        title: "Clooty",
+        image: "../../public/images/landing-imgs/clooty-02.webp"
     }
 ]
 
@@ -160,9 +164,6 @@ function renderCard(index) {
     activeDisplay.innerHTML = `
     <div class="display-card">
       <img src="${p.image}" alt="${p.title}" loading="lazy">
-      <div class="card-footer">
-        <div class="card-title">${p.title}</div>
-      </div>
     </div>
   `;
 }
@@ -257,7 +258,6 @@ function dragEnd() {
     drag.on = false;
 }
 
-console.log(track);
 track.addEventListener('mousedown', dragStart);
 track.addEventListener('touchstart', dragStart, { passive: true });
 window.addEventListener('mousemove', dragMove);
@@ -268,3 +268,10 @@ window.addEventListener('touchend', dragEnd);
 buildDom();
 tick();
 onScroll();
+
+document.addEventListener("click", (e) => {
+    const img = e.target.closest(".display-card img");
+    if (!img) return;
+    const wrapper = img.parentElement; // e.g. a .media-item or similar
+    wrapper.classList.toggle("full-page");
+});
