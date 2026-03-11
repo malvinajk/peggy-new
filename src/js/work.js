@@ -91,6 +91,8 @@ function markFilter(filter, el) {
         activeFilters = activeFilters.filter(f => f !== filter);
         el.classList.remove("active")
     } else {
+        activeFilters = [];
+        document.querySelectorAll(".filter-btn.active").forEach(el => el.classList.remove("active"));
         activeFilters.push(filter);
         el.classList.add("active")
     }

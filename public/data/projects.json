@@ -20,12 +20,7 @@
         "filters": [
             "photograph",
             "video",
-            "roadkill",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
-            "2020 - present",
-            "sculpture"
+            "1990 - 2000"
         ]
     },
     {
@@ -42,14 +37,7 @@
             "../public/images/work/roadkill/black-bird.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
-            "birds",
             "sculpture"
         ]
     },
@@ -67,14 +55,7 @@
             "../public/images/work/roadkill/crow.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
-            "birds",
             "sculpture"
         ]
     },
@@ -92,12 +73,6 @@
             "../public/images/work/roadkill/deer.JPG"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -116,12 +91,6 @@
             "../public/images/work/roadkill/fox.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -140,14 +109,7 @@
             "../public/images/work/roadkill/gull.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
-            "birds",
             "sculpture"
         ]
     },
@@ -165,12 +127,6 @@
             "../public/images/work/roadkill/hare-01.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -189,12 +145,6 @@
             "../public/images/work/roadkill/hare-02.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -213,12 +163,6 @@
             "../public/images/work/roadkill/hedgehog.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -237,12 +181,6 @@
             "../public/images/work/roadkill/instects.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -261,12 +199,6 @@
             "../public/images/work/roadkill/mice.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -285,12 +217,6 @@
             "../public/images/work/roadkill/rabbit.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -309,12 +235,6 @@
             "../public/images/work/roadkill/squirrel.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -333,14 +253,7 @@
             "../public/images/work/roadkill/thrush.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
-            "birds",
             "sculpture"
         ]
     },
@@ -358,12 +271,6 @@
             "../public/images/work/roadkill/toad-and-frog.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
             "sculpture"
         ]
@@ -382,14 +289,7 @@
             "../public/images/work/roadkill/warbler.jpg"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
-            "birds",
             "sculpture"
         ]
     },
@@ -407,26 +307,22 @@
             "../public/images/work/roadkill/porcelain-gannet.JPG"
         ],
         "filters": [
-            "porcelain",
-            "ash",
-            "bones",
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
-            "birds",
             "sculpture"
         ]
     },
     {
         "id": "bossom",
         "title": "Bossom",
-        "year": "2024",
-        "materials": [],
-        "dimensions": "",
+        "year": "2005",
+        "materials": [
+            "fibreglass",
+            "flock"
+        ],
+        "dimensions": "70 x 100 cm",
         "images": ["../public/images/work/bossom/bossom-01.JPG", "../public/images/work/bossom/bossom-02.JPG", "../public/images/work/bossom/bossom-03.JPG"],
         "filters": [
-            "2020 - present",
+            "2000 - 2010",
             "sculpture"
         ]
     },
@@ -450,12 +346,8 @@
             "../public/images/work/leggy-peggy/leggy-peggy-07.jpeg"
         ],
         "filters": [
-            "fibreglass",
-            "aluminium",
-            "flock",
             "2020 - present",
-            "sculpture",
-            "clothing"
+            "sculpture"
         ]
     },
     {
@@ -477,12 +369,7 @@
         ],
         "filters": [
             "2020 - present",
-            "flock",
-            "jesmonite",
-            "sculpture",
-            "roadkill",
-            "sculpture",
-            "clothing"
+            "sculpture"
         ]
     },
     {
@@ -506,12 +393,7 @@
         ],
         "filters": [
             "2010 - 2020",
-            "flock",
-            "jesmonite",
-            "roadkill",
-            "found objects",
-            "sculpture",
-            "clothing"
+            "sculpture"
         ]
     },
     {
@@ -527,11 +409,7 @@
         "images": ["../public/images/work/foxy-loxy/foxy-loxy-01.jpg", "../public/images/work/foxy-loxy/foxy-loxy-02.jpg", "../public/images/work/foxy-loxy/foxy-loxy-03.jpg", "../public/images/work/foxy-loxy/foxy-loxy-04.jpg", "../public/images/work/foxy-loxy/foxy-loxy-05.JPG", "../public/images/work/foxy-loxy/foxy-loxy-06.JPG", "../public/images/work/foxy-loxy/foxy-loxy-07.JPG", "../public/images/work/foxy-loxy/foxy-loxy-08.jpg"],
         "filters": [
             "2020 - present",
-            "jesmonite",
-            "roadkill",
-            "found objects",
-            "sculpture",
-            "clothing"
+            "sculpture"
         ]
     },
     {
@@ -546,12 +424,7 @@
         "dimensions": "varies",
         "images": ["../public/images/work/urns/urns-01.jpg", "../public/images/work/urns/urns-02.jpg", "../public/images/work/urns/urns-03.jpg", "../public/images/work/urns/urns-04.jpg"],
         "filters": [
-            "1990 - 2000",
-            "2000 - 2010",
-            "2010 - 2020",
             "2020 - present",
-            "insects",
-            "flock",
             "sculpture"
         ]
     },
@@ -579,9 +452,8 @@
         ],
         "filters":  [
             "2020 - present",
-            "plaster",
-            "straw",
-            "sculpture"
+            "sculpture",
+            "video"
         ]
     },
     {
@@ -604,9 +476,6 @@
         ],
         "filters": [
             "2020 - present",
-            "hay",
-            "plaster",
-            "food items",
             "sculpture"
         ]
     },
@@ -625,7 +494,6 @@
         ],
         "filters": [
             "1990 - 2000",
-            "bronze",
             "sculpture"
         ]
     },
@@ -646,9 +514,6 @@
         ],
         "filters": [
             "2020 - present",
-            "found objects",
-            "branches",
-            "insects",
             "sculpture"
         ]
     },
@@ -665,9 +530,6 @@
         "images": ["../public/images/work/black-dog/black-dog-01.jpg", "../public/images/work/black-dog/black-dog-02.JPG"],
         "filters": [
             "2000 - 2010",
-            "resin",
-            "flock",
-            "roadkill",
             "sculpture"
         ]
     },
@@ -693,10 +555,6 @@
         ],
         "filters": [
             "2020 - present",
-            "jesmonite",
-            "found objects",
-            "clothing",
-            "roadkill",
             "sculpture"
         ]
     },
@@ -713,9 +571,6 @@
         "images": ["../public/images/work/cheesy-bone/cheesy-bone-01.JPG", "../public/images/work/cheesy-bone/cheesy-bone-02.JPG", "../public/images/work/cheesy-bone/cheesy-bone-03.JPG"],
         "filters": [
             "2010 - 2020",
-            "bones",
-            "flock",
-            "food items",
             "sculpture"
         ]
     },
@@ -733,11 +588,6 @@
         "images": ["../public/images/work/clooty-dumpling/clooty-01.jpg", "../public/images/work/clooty-dumpling/clooty-02.jpg", "../public/images/work/clooty-dumpling/clooty-03.jpg", "../public/images/work/clooty-dumpling/clooty-04.jpg", "../public/images/work/clooty-dumpling/clooty-05.jpg"],
         "filters": [
             "2020 - present",
-            "branches",
-            "jesmonite",
-            "flock",
-            "birds",
-            "clothing",
             "sculpture"
         ]
     },
@@ -769,14 +619,7 @@
         ],
         "filters": [
             "2010 - 2020",
-            "insects",
-            "birds",
-            "bones",
-            "porcelain",
-            "ash",
-            "sculpture",
-            "installation",
-            "site-specific"
+            "sculpture"
         ]
     },
     {
@@ -794,10 +637,7 @@
         ],
         "filters": [
             "1990 - 2000",
-            "roadkill",
-            "flowers",
-            "sculpture",
-            "site-specific"
+            "photograph"
         ]
     },
     {
@@ -815,15 +655,13 @@
         ],
         "filters": [
             "1990 - 2000",
-            "roadkill",
-            "rubber",
             "sculpture"
         ]
     },
     {
         "id": "sleeping-beauties",
         "title": "Sleeping Beauties",
-        "year": "",
+        "year": "2005",
         "materials": [
             "resin",
             "flock cast",
@@ -836,22 +674,19 @@
             "../public/images/work/sleeping-beauties/sleeping-beauties-02.jpg"
         ],
         "filters": [
-            "resin",
-            "flock",
-            "flowers",
-            "roadkill",
+            "2000 - 2010",
             "sculpture"
         ]
     },
     {
         "id": "drawings",
         "title": "Drawings",
-        "year": "",
+        "year": "1999",
         "materials": [
             "pen",
             "paper"
         ],
-        "dimensions": "",
+        "dimensions": "100 x 200 cm",
         "images": [],
         "videos": [
             "../public/videos/drawing-01.mp4",
@@ -862,7 +697,9 @@
             "../public/videos/drawing-06.mp4"
         ],
         "filters": [
-            "drawing"
+            "1990 - 2000",
+            "drawing",
+            "video"
         ]
     }
     ]
