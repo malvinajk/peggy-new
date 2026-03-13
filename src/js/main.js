@@ -163,7 +163,7 @@ function renderCard(index) {
 
     activeDisplay.innerHTML = `
     <div class="display-card">
-      <img src="${p.image}" alt="${p.title}" loading="lazy">
+      <img src="${p.image}" alt="${p.title}" loading="eager" fetchpriority="high">
     </div>
   `;
 }

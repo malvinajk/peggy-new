@@ -2,20 +2,21 @@
 
 @font-face {
     font-family: "Velvelyne";
-    font-weight: bold;
-    src: url('../../public/fonts/Velvelyne-Bold.otf') format('opentype');
-
+    font-weight: 400;
+    src: url('../../public/fonts/Velvelyne-Regular.woff2') format('opentype');
+    font-display: swap;
+}
+@font-face {
     font-family: "Velvelyne";
-    font-weight: book;
-    src: url('../../public/fonts/Velvelyne-Book.otf') format('opentype');
-
+    font-weight: 300;
+    src: url('../../public/fonts/Velvelyne-Light.woff2') format('opentype');
+    font-display: swap;
+}
+@font-face {
     font-family: "Velvelyne";
-    font-weight: light;
-    src: url('../../public/fonts/Velvelyne-Light.otf') format('opentype');
-
-    font-family: "Velvelyne";
-    font-weight: regular;
-    src: url('../../public/fonts/Velvelyne-Regular.otf') format('opentype');
+    font-weight: 500;
+    src: url('../../public/fonts/Velvelyne-Bold.woff2') format('opentype');
+    font-display: swap;
 }
 
 /**************** CSS VARIABLES *****************/
@@ -36,6 +37,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+h2, h3 {
+    font-weight: 400;
 }
 
 span, p {
@@ -61,7 +66,7 @@ body {
     background: var(--bg);
     color: var(--text);
     font-family: "Velvelyne", sans-serif;
-    font-weight: regular;
+    font-weight: 400;
     min-height: 100vh;
     overflow-x: hidden;
 }

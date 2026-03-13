@@ -150,6 +150,29 @@ video {
     padding: 1rem 0;
 }
 
+/******************************** FOOTER ***********************************/
+
+.about-website-content {
+    border-top: 1px dotted black;
+    padding: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+#typefaces p {
+    display: inline;
+    padding-bottom: 1em;
+}
+
+#copyright {
+    padding-bottom: 6em;
+    opacity: 50%;
+}
+
 
 /************************* RESPONSIVE DESIGN ************************/
 

@@ -89,6 +89,7 @@ main {
     max-height: 90vh;
     object-fit: contain;
     border-radius: 0;
+    cursor: zoom-out;
 }
 
 .full-page::backdrop {

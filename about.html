@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Get to know the artist behind the work. Read Peggy Atherton's bio and view her professional CV and exhibition history.">
-    <link rel="icon" href="../public/favicon02.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="icon" href="public/favicon02.ico">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/about.css">
     <title>Peggy Atherton | About</title>
 </head>
 <body>
-    <header class="work">
-        <a href="../index.html">
+    <nav class="work">
+        <a href="index.html">
             <h2>Peggy Atherton</h2>
         </a>
         <a id="work-link" href="work.html">
@@ -22,12 +22,12 @@
                 </svg></h2>
         </a>
     
-    </header>
+    </nav>
     <main>
     <section class="main-body">
         <div class="col-left">
             <figure>
-                <img src="../public/images/about/peggy.jpg"
+                <img src="public/images/about/peggy.jpg"
                     alt="Peggy Atherton wearing a blue jumpsuit and knee-high leather boots attending Frieze art fair in 2013.">
                 <figcaption>Peggy Atherton wearing a blue jumpsuit and leather boots, pictured at the Frieze art fair in 2013.
                     Photograph courtesy of Graeme Robertson/Guardian</figcaption>
@@ -47,7 +47,7 @@
                 <span>Text by Angela Kingston, a freelance curator and visual arts writer.</span>
             </div>
             <div class="video-content">
-                <video controls width="360" src="../public/videos/roadkill (360p).mp4" type="video/mp4" controlsList="nodownload">
+                <video controls width="360" src="public/videos/roadkill (360p).mp4" type="video/mp4" controlsList="nodownload">
                 </video>
             </div>
         </section>
@@ -72,7 +72,7 @@
     </main>
 
 
-    <footer class="about-section">
+    <nav class="about-section">
         <a href="about.html" class="circle-link" aria-label="About">
             <svg class="circle-el" viewBox="0 0 400 400">
                 <defs>
@@ -109,9 +109,34 @@
                         </svg>
                     </a>
                 </div>
-    </footer>
+            </nav>
 
-    <script src="js/about.js"></script>
+            <footer class="about-website">
+                <div class="about-website-content">
+                    <div>
+                        <p>This website was designed and developed by <a href="mailto:malwina.janasik@gmail.com">Malvina Janasik.</a></p>
+                    </div>
+                    <div id="typefaces">
+                        <p>Typefaces used:</p>
+                        <span><a href="https://velvetyne.fr/about/" target="_blank">Velvetyne, </a></span>
+                        <span><a href="https://fonts.google.com/specimen/Martian+Mono" target="_blank">Martian Mono</a></span>
+                    </div>
+                </div>
+                    <div id="copyright" align="center">
+                        &copy; 2026 www.peggyatherton.com - All Rights Reserved.
+                        <span>Last Updated : 03/11/2026 15:54:53</span>
+                    </div>
+                    <script>
+                        (() => {
+                            const copyrightElement = document.getElementById("copyright");
+                            copyrightElement.innerHTML = "&copy;  " + new Date().getFullYear() + " www.peggyatherton.com - All Rights Reserved.";
+                            copyrightElement.innerHTML += "<br/>Last Updated : " + document.lastModified;
+                        })();
+                    </script>
+                
+            </footer>
+
+    <script src="src/js/about.js"></script>
     
 </body>
 </html>
