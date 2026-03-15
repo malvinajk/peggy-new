@@ -1,6 +1,20 @@
 {
         "exhibitions": [
             {
+                "id": "an-intimacy-with-strangers",
+                "title": "An Intimacy With Strangers",
+                "year": "2026",
+                "location": ["KINDL Centre for Contemporary Art", "Berlin"],
+                "link": "https://www.kindl-berlin.com/exhibitions/intimacy-with-strangers"
+            },
+            {
+                "id": "buffet-dart-26",
+                "title":"Buffet d'art",
+                "year": "2026",
+                "location": ["Ambika P3", "London"],
+                "link": ""
+            },
+            {
                 "id": "buffet-dart-art-school",
                 "title": "Buffet d'art: Art School",
                 "year": "2024",

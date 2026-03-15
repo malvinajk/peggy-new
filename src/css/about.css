@@ -16,6 +16,7 @@
 }
 
 p {
+    padding-right: 0.5rem;
     font-size: 0.8rem;
     text-align: justify;
     line-height: 1.9rem;
@@ -156,11 +157,13 @@ video {
     border-top: 1px dotted black;
     padding: 3em;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     opacity: 50%;
+}
+.about-website-content p {
+    text-align: center;
 }
 
 #typefaces p {
@@ -262,11 +265,13 @@ video {
     }
     
     .exhibition-item {
-        grid-template-columns: 50px 70px 90px 80px;
+        grid-template-columns: 30px 70px 90px 60px;
+        gap: 1rem;
         justify-content: center;
     }
     .work-item {
-        grid-template-columns: 40px 70px 70px 170px;
+        grid-template-columns: 40px 60px 60px 110px;
+        gap: 1rem;
         justify-content: center;
     }
     span {
