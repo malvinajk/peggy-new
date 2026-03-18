@@ -131,6 +131,9 @@ li {
     .works-item {
         max-width: 350px;
     }
+    .filter-content {
+        padding: 4rem 2rem;
+    }
 }
 
 @media (prefers-color-scheme: dark) {

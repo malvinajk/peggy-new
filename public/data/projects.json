@@ -11,8 +11,7 @@
         ],
         "dimensions": "life size",
         "images": [
-            "../public/images/work/roadkill/found-you-01.jpg",
-            "../public/images/work/roadkill/found-you-02.jpg"
+            "../public/images/work/roadkill/found-you-01.jpg"
         ],
         "videos": [
             "../public/videos/roadkill (360p).mp4"
@@ -24,9 +23,9 @@
         ]
     },
     {
-        "id": "roadkill-black-bird",
-        "title":"Roadkill Urns: Black Bird",
-        "year": "1996 - present",
+        "id":"roadkill-urns",
+        "title": "Roadkill Urns",
+        "year": "Ongoing series",
         "materials": [
             "porcelain",
             "ash",
@@ -34,281 +33,15 @@
         ],
         "dimensions": "life size",
         "images": [
-            "../public/images/work/roadkill/black-bird.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-crow",
-        "title": "Roadkill Urns: Crow",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/crow.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-deer",
-        "title": "Roadkill Urns: Deer",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/deer.JPG"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-fox",
-        "title": "Roadkill Urns: Fox",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/fox.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-gull",
-        "title": "Roadkill Urns: Gull",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/gull.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-hare-01",
-        "title": "Roadkill Urns: Hare 01",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/hare-01.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-hare-02",
-        "title": "Roadkill Urns: Hare 02",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/hare-02.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-hedgehog",
-        "title": "Roadkill Urns: Hedgehog",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/hedgehog.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-insects",
-        "title": "Roadkill Urns: Insects",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/instects.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-mice",
-        "title": "Roadkill Urns: Mice",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/mice.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-rabbit",
-        "title": "Roadkill Urns: Rabbit",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
+            "../public/images/work/roadkill/crow.jpg",
+            "../public/images/work/roadkill/toad-and-frog.jpg",
+            "../public/images/work/roadkill/fox.jpg",
+            "../public/images/work/roadkill/hare-02.jpg",
             "../public/images/work/roadkill/rabbit.jpg"
         ],
         "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-squirrel",
-        "title": "Roadkill Urns: Squirrel",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/squirrel.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-thrush",
-        "title": "Roadkill Urns: Thrush",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/thrush.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-toad-and-frog",
-        "title": "Roadkill Urns: Toad and Frog",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/toad-and-frog.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-warbler",
-        "title": "Roadkill Urns: Warbler",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/warbler.jpg"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
-        ]
-    },
-    {
-        "id": "roadkill-porcelain-gannet",
-        "title": "Roadkill Urns: Porcelain Gannet",
-        "year": "1996 - present",
-        "materials": [
-            "porcelain",
-            "ash",
-            "bones"
-        ],
-        "dimensions": "life size",
-        "images": [
-            "../public/images/work/roadkill/porcelain-gannet.JPG"
-        ],
-        "filters": [
-            "2020 - present",
-            "sculpture"
+            "sculpture",
+            "recent"
         ]
     },
     {
@@ -320,7 +53,10 @@
             "flock"
         ],
         "dimensions": "70 x 100 cm",
-        "images": ["../public/images/work/bossom/bossom-01.JPG", "../public/images/work/bossom/bossom-02.JPG", "../public/images/work/bossom/bossom-03.JPG"],
+        "images": [
+            "../public/images/work/bossom/bossom-01.JPG",
+            "../public/images/work/bossom/bossom-03.JPG"
+        ],
         "filters": [
             "2000 - 2010",
             "sculpture"
@@ -338,16 +74,14 @@
         "dimensions": "",
         "images": [
             "../public/images/work/leggy-peggy/leggy-peggy-01.jpg",
-            "../public/images/work/leggy-peggy/leggy-peggy-02.jpg",
             "../public/images/work/leggy-peggy/leggy-peggy-03.jpg",
-            "../public/images/work/leggy-peggy/leggy-peggy-04.jpg",
             "../public/images/work/leggy-peggy/leggy-peggy-05.jpeg",
-            "../public/images/work/leggy-peggy/leggy-peggy-06.jpeg",
             "../public/images/work/leggy-peggy/leggy-peggy-07.jpeg"
         ],
         "filters": [
             "2020 - present",
-            "sculpture"
+            "sculpture",
+            "recent"
         ]
     },
     {
@@ -362,14 +96,13 @@
         "dimensions": "",
         "images": [
             "../public/images/work/neon-grrrr/neon-01.jpeg",
-            "../public/images/work/neon-grrrr/neon-02.jpeg",
             "../public/images/work/neon-grrrr/neon-03.jpg",
-            "../public/images/work/neon-grrrr/neon-04.jpeg",
-            "../public/images/work/neon-grrrr/neon-05.jpg"
+            "../public/images/work/neon-grrrr/neon-04.jpeg"
         ],
         "filters": [
             "2020 - present",
-            "sculpture"
+            "sculpture",
+            "recent"
         ]
     },
     {
@@ -385,7 +118,6 @@
         ],
         "dimensions": "34 x 44 x 20 cm",
         "images": [
-            "../public/images/work/rucksack/rucksack-01.JPG",
             "../public/images/work/rucksack/rucksack-02.JPG",
             "../public/images/work/rucksack/rucksack-03.JPG",
             "../public/images/work/rucksack/rucksack-04.JPG",
@@ -406,7 +138,16 @@
             "nike sports bag"
         ],
         "dimensions": "56 x 30 x 26 cm",
-        "images": ["../public/images/work/foxy-loxy/foxy-loxy-01.jpg", "../public/images/work/foxy-loxy/foxy-loxy-02.jpg", "../public/images/work/foxy-loxy/foxy-loxy-03.jpg", "../public/images/work/foxy-loxy/foxy-loxy-04.jpg", "../public/images/work/foxy-loxy/foxy-loxy-05.JPG", "../public/images/work/foxy-loxy/foxy-loxy-06.JPG", "../public/images/work/foxy-loxy/foxy-loxy-07.JPG", "../public/images/work/foxy-loxy/foxy-loxy-08.jpg"],
+        "images": [
+            "../public/images/work/foxy-loxy/foxy-loxy-01.jpg", 
+            "../public/images/work/foxy-loxy/foxy-loxy-02.jpg", 
+            "../public/images/work/foxy-loxy/foxy-loxy-03.jpg", 
+            "../public/images/work/foxy-loxy/foxy-loxy-04.jpg", 
+            "../public/images/work/foxy-loxy/foxy-loxy-05.JPG", 
+            "../public/images/work/foxy-loxy/foxy-loxy-06.JPG", 
+            "../public/images/work/foxy-loxy/foxy-loxy-07.JPG", 
+            "../public/images/work/foxy-loxy/foxy-loxy-08.jpg"
+        ],
         "filters": [
             "2020 - present",
             "sculpture"
@@ -422,7 +163,12 @@
             "flocked boxes"
         ],
         "dimensions": "varies",
-        "images": ["../public/images/work/urns/urns-01.jpg", "../public/images/work/urns/urns-02.jpg", "../public/images/work/urns/urns-03.jpg", "../public/images/work/urns/urns-04.jpg"],
+        "images": [
+            "../public/images/work/urns/urns-01.jpg", 
+            "../public/images/work/urns/urns-02.jpg", 
+            "../public/images/work/urns/urns-03.jpg", 
+            "../public/images/work/urns/urns-04.jpg"
+        ],
         "filters": [
             "2020 - present",
             "sculpture"
@@ -442,7 +188,6 @@
             "../public/images/work/haybales/straw-bale-02.JPG",
             "../public/images/work/haybales/straw-bale-03.JPG",
             "../public/images/work/haybales/straw-bale-04.JPG",
-            "../public/images/work/haybales/straw-bale-05.JPG",
             "../public/images/work/haybales/straw-bale-06.JPG",
             "../public/images/work/haybales/straw-bale-07.jpg"
         ],
@@ -453,7 +198,8 @@
         "filters":  [
             "2020 - present",
             "sculpture",
-            "video"
+            "video",
+            "recent"
         ]
     },
     {
@@ -476,7 +222,8 @@
         ],
         "filters": [
             "2020 - present",
-            "sculpture"
+            "sculpture",
+            "recent"
         ]
     },
     {
@@ -545,17 +292,14 @@
         ],
         "dimensions": "70 x 60 x 30 cm",
         "images": [
-            "../public/images/work/oh-dear/oh-dear-01.jpg",
             "../public/images/work/oh-dear/oh-dear-02.jpg",
-            "../public/images/work/oh-dear/oh-dear-03.jpeg",
-            "../public/images/work/oh-dear/oh-dear-04.jpg",
-            "../public/images/work/oh-dear/oh-dear-05.jpg",
             "../public/images/work/oh-dear/oh-dear-06.jpg",
             "../public/images/work/oh-dear/oh-dear-07.jpg"
         ],
         "filters": [
             "2020 - present",
-            "sculpture"
+            "sculpture",
+            "recent"
         ]
     },
     {
@@ -568,7 +312,9 @@
             "Babybell cheese"
         ],
         "dimensions": "124 x 13 x 14 cm",
-        "images": ["../public/images/work/cheesy-bone/cheesy-bone-01.JPG", "../public/images/work/cheesy-bone/cheesy-bone-02.JPG", "../public/images/work/cheesy-bone/cheesy-bone-03.JPG"],
+        "images": [
+            "../public/images/work/cheesy-bone/cheesy-bone-01.JPG",  
+            "../public/images/work/cheesy-bone/cheesy-bone-03.JPG"],
         "filters": [
             "2010 - 2020",
             "sculpture"
@@ -605,14 +351,9 @@
         "dimensions": "varies",
         "images": [
             "../public/images/work/europe-after-the-rain/europe-01.JPG",
-            "../public/images/work/europe-after-the-rain/europe-02.JPG",
             "../public/images/work/europe-after-the-rain/europe-03.JPG",
-            "../public/images/work/europe-after-the-rain/europe-04.JPG",
             "../public/images/work/europe-after-the-rain/europe-05.JPG",
-            "../public/images/work/europe-after-the-rain/europe-06.JPG",
-            "../public/images/work/europe-after-the-rain/europe-07.JPG",
             "../public/images/work/europe-after-the-rain/europe-08.JPG",
-            "../public/images/work/europe-after-the-rain/europe-09.JPG",
             "../public/images/work/europe-after-the-rain/europe-10.JPG",
             "../public/images/work/europe-after-the-rain/europe-11.JPG",
             "../public/images/work/europe-after-the-rain/europe-12.JPG"

@@ -71,8 +71,8 @@ function renderWorks() {
 }
 
 function renderFilters() {
-    const allFilters = shuffleArray([...new Set(PROJECTS.flatMap(p => p.filters))]);
-    // console.log(shuffleArray(allFilters))
+    let allFilters = shuffleArray([...new Set(PROJECTS.flatMap(p => p.filters))]);
+    allFilters = ["recent", ...allFilters.filter(f => f !== "recent")]
     const filterContainer = document.querySelector(".filter-content");
 
     allFilters.forEach(filter => {
