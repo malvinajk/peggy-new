@@ -20,6 +20,31 @@ function shuffleArray(arr) {
     return shuffled;
 }
 
+const worksLightbox = document.getElementById("works-lightbox");
+const worksLightboxImg = document.getElementById("works-lightbox-img");
+let worksLastFocused = null;
+
+function openWorksLightbox(img) {
+    worksLastFocused = img;
+    worksLightboxImg.src = img.src;
+    worksLightboxImg.alt = img.alt;
+    worksLightbox.hidden = false;
+    worksLightbox.focus();
+}
+
+function closeWorksLightbox() {
+    worksLightbox.hidden = true;
+    if (worksLastFocused) worksLastFocused.focus();
+}
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !worksLightbox.hidden) closeWorksLightbox();
+});
+
+worksLightbox.addEventListener("click", (e) => {
+    if (e.target === worksLightbox) closeWorksLightbox();
+});
+
 function renderWorks() {
     containerWorks.innerHTML = "";
     const filtered = activeFilters.length === 0 ? PROJECTS : PROJECTS.filter(p => activeFilters.some(f => p.filters.includes(f)))
@@ -29,10 +54,11 @@ function renderWorks() {
         item.classList.add("works-item")
         const imagesHTML = (work.images || [])
             .map(src => `
-                <div class="media-item">
-                <img src="${src}" alt="${work.title}" loading="lazy" />
-                </div>
-                `)
+        <div class="media-item">
+        <img src="${src}" alt="${work.title}" loading="lazy"
+             tabindex="0" role="button" aria-label="Enlarge image: ${work.title}" />
+        </div>
+        `)
             .join("");
 
         const videosHTML = (work.videos || [])
@@ -63,10 +89,14 @@ function renderWorks() {
 
         const imgs = item.querySelectorAll(".work-media img");
         imgs.forEach(img => {
-            img.addEventListener("click", () => {
-                img.parentElement.classList.toggle("full-page");
-            })
-        })
+            img.addEventListener("click", () => openWorksLightbox(img));
+            img.addEventListener("keydown", (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    openWorksLightbox(img);
+                }
+            });
+        });
     })
 }
 

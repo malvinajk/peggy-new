@@ -56,6 +56,27 @@ main {
     width: 100%;
     box-sizing: border-box;
 }
+.works-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+}
+
+.works-lightbox[hidden] {
+    display: none;
+}
+
+.works-lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    cursor: default;
+}
 
 .media-item {
     border-radius: 10px;
@@ -71,7 +92,7 @@ main {
     cursor: pointer;
 }
 
-.media-item.full-page {
+/* .media-item.full-page {
     position: fixed;
     inset: 0;
     margin: auto;
@@ -90,11 +111,11 @@ main {
     object-fit: contain;
     border-radius: 0;
     cursor: zoom-out;
-}
+} */
 
-.full-page::backdrop {
+/* .full-page::backdrop {
     background: rgba(0, 0, 0, 0.8);
-}
+} */
 
 /******************************** FILTER BUTTONS ***********************************/
 

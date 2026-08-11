@@ -170,7 +170,7 @@ body {
     pointer-events: auto;
 }
 
-.full-page {
+/* .full-page {
     inset: 0;
     margin: auto;
     width: 100vw;
@@ -188,8 +188,29 @@ body {
     border-radius: 0;
     object-fit: contain;
     cursor: zoom-out;
+} */
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
 }
 
+.lightbox[hidden] {
+    display: none;
+}
+
+.lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    cursor: default;
+}
 /******************* ABOUT AND WORK SECTIONS **************************/
 
 .about-section, .work {

@@ -163,10 +163,44 @@ function renderCard(index) {
 
     activeDisplay.innerHTML = `
     <div class="display-card">
-      <img src="${p.image}" alt="${p.title}" loading="eager" fetchpriority="high">
+      <img src="${p.image}" alt="${p.title}" loading="eager" fetchpriority="high"
+           tabindex="0" role="button" aria-label="Enlarge image: ${p.title}">
     </div>
   `;
 }
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+let lastFocused = null;
+
+function openLightbox(sourceImg) {
+    lastFocused = sourceImg;
+    lightboxImg.src = sourceImg.src;
+    lightboxImg.alt = sourceImg.alt;
+    lightbox.hidden = false;
+    lightbox.focus();
+}
+
+function closeLightbox() {
+    lightbox.hidden = true;
+    if (lastFocused) lastFocused.focus(); // sends focus back to the original image
+}
+
+document.addEventListener("click", (e) => {
+    const img = e.target.closest(".display-card img");
+    if (img) { openLightbox(img); return; }
+    if (e.target === lightbox) closeLightbox(); // click on dark overlay closes it
+});
+
+document.addEventListener("keydown", (e) => {
+    const img = e.target.closest(".display-card img");
+    if (img && (e.key === "Enter" || e.key === " ")) {
+        e.preventDefault();
+        openLightbox(img);
+    }
+    if (e.key === "Escape" && !lightbox.hidden) {
+        closeLightbox();
+    }
+});
 
 // gets the item around the circle that is closest to 6 o clock
 // rot is the current rotation of the whole ellipse
