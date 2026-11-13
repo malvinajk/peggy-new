@@ -3,12 +3,18 @@ let PROJECTS = [];
 let activeFilters = [];
 
 async function init() {
-    const res = await fetch("../../public/data/projects.json");
-    const data = await res.json();
-    PROJECTS = shuffleArray(data.projects);
+    try {
+        const res = await fetch("../../public/data/projects.json");
+        if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+        const data = await res.json();
+        PROJECTS = shuffleArray(data.projects);
 
-    renderWorks();
-    renderFilters();
+        renderWorks();
+        renderFilters();
+    } catch (err) {
+        containerWorks.textContent = "Sorry, the works couldn't be loaded."
+        console.error(err);
+    }
 }
 
 function shuffleArray(arr) {
